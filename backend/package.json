@@ -8,10 +8,10 @@
     "dev": "json-server db.json --host 0.0.0.0 --port 3000 --static ./public",
     "local": "json-server db.json --port 3000"
   },
-  "dependencies": {
-    "json-server": "^1.0.0-beta.3"
-  },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
   }
 }
